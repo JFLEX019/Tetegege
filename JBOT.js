@@ -103,9 +103,9 @@ const antiviewonce = process.env.ANTIVIEWONCE || 'TRUE';
 const video = await fs.readFileSync('./menu.mp4');
 const pict = await fs.readFileSync('./dreaded.jpg');
 const mode = process.env.MODE || 'PUBLIC';
-const author = process.env.STICKER_AUTHOR || 'fortunatus';
+const author = process.env.STICKER_AUTHOR || 'jflex';
     const prefix = process.env.PREFIX || '.';
-const mycode = process.env.COUNTRY_CODE || '254';
+const mycode = process.env.COUNTRY_CODE || '255';
     const cmd = commandNam.some(name => body.includes(name)) && body.startsWith(prefix);
 const admin = process.env.ADMIN_MSG || 'Are you an admin?';
     const group = process.env.GROUP_ONLY_MSG || 'This a not a group chat';
@@ -113,12 +113,12 @@ const admin = process.env.ADMIN_MSG || 'Are you an admin?';
     const NotOwner = process.env.NOT_OWNER_MSG || 'Are you the owner?';
 const appname = process.env.APP_NAME;
 const herokuapi = process.env.HEROKU_API;
-    const packname = process.env.STICKER_PACKNAME || 'dreaded';
-const dev = process.env.DEV || '254114018035'
+    const packname = process.env.STICKER_PACKNAME || 'jflex';
+const dev = process.env.DEV || '255786535571'
  const DevDreaded = dev.split(",");
     const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
    const bad = process.env.BAD_WORD || 'fuck';
-const botname = process.env.BOTNAME || "DREADED-MD";
+const botname = process.env.BOTNAME || "j-bot-MD";
 
     const autorecordtypegc = process.env.RECORDING_TYPINGGC || 'TRUE';
     const autoreaddm = process.env.AUTOREAD || 'TRUE';
@@ -191,14 +191,14 @@ const audiovn = "./alive.mp3";
         mimetype: 'audio/mp4',
         ptt: true,
         waveform:  [100, 0, 100, 0, 100, 0, 100],
-        fileName: "Dreaded",
+        fileName: "J-BOT",
 
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
           title: "Hi human, I am Alive",
-          body: "DREADED BOT",
-          thumbnailUrl: "https://telegra.ph/file/a5147a64a5b91d8cf945c.jpg",
+          body: "J-bot-MD",
+          thumbnailUrl: "https://telegra.ph/file/3d402e763102deae0aedd.jpg",
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: true
