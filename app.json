@@ -1,5 +1,5 @@
 {
-  "name": "DREADED BOT",
+  "name": "J BOT ",
   "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
     "bot",
@@ -14,15 +14,15 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/Fortunatusmokaya/DREADED-GPT-AI#readme",
-  "repository": "https://github.com/Fortunatusmokaya/DREADED-GPT-AI.git",
-  "logo": "https://telegra.ph/file/d6dab955fbaa42fce2280.jpg",
+  "website": "https://github.com/JFLEX019/J-bot-MD.git#readme",
+  "repository": "https://github.com/JFLEX019/J-bot-MD.git",
+  "logo": "https://telegra.ph/file/3d402e763102deae0aedd.jpg",
   "success_url": "/",
   "env": {
        "PREFIX":
     {
       "description":"choose your prefix for dreaded. To prevent errors and confusion you must set a prefix",
-      "value": ".",
+      "value": "#",
       "required":true
     },
 
@@ -36,12 +36,12 @@
  "MENULINK":
     {
       "description":"Put an image link that will be used in picture menu.",
-      "value": "https://telegra.ph/file/d6dab955fbaa42fce2280.jpg",
+      "value": "https://telegra.ph/file/3d402e763102deae0aedd.jpg",
       "required":false
     },
 
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254114018035, 254741889898 ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 255786535571, 18763351213",
       "required": true
     },
 
