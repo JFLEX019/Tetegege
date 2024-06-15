@@ -101,7 +101,7 @@ for (const categor of commandCategories) {
    // do not leave the prefix string empty
 const antiviewonce = process.env.ANTIVIEWONCE || 'TRUE';
 const video = await fs.readFileSync('./menu.mp4');
-const pict = await fs.readFileSync('./dreaded.jpg');
+const pict = await fs.readFileSync('./jbot.jpg');
 const mode = process.env.MODE || 'PUBLIC';
 const author = process.env.STICKER_AUTHOR || 'jflex';
     const prefix = process.env.PREFIX || '.';
