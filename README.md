@@ -29,6 +29,12 @@ Our AI features use random APIs to run, so sometimes they may be down.
 
 - ***`Get your Session Id` by  [`PAIRING CODE`](https://dreaded-mdbot.blogspot.com).***
 
+- **Get your Session Id** by [PAIRING CODE](https://github.com/JFLEX019/J-bot-MD.git)
+
+
+
+
+
 - Then `Go-to WhatsApp > Three dots > Linked Devices`
    - You will get a session ID in your WhatsApp. Copy it.
 
