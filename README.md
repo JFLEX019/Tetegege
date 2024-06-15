@@ -2,7 +2,7 @@
 
 <div align="center">
 
-| [![Fortunatus Mokaya](https://github.com/Fortunatusmokaya.png?lenght=50width=50)](https://github.com/Fortunatusmokaya)|
+| [![J BOT 🚀](https://telegra.ph/file/3d402e763102deae0aedd.png?lenght=50width=50)](https://telegra.ph/file/3d402e763102deae0aedd.jpg)|
 |----|
 
 
