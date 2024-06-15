@@ -30,7 +30,7 @@ import speed from "performance-now";
 import Genius from "genius-lyrics";
 import { ssweb } from './lib/scrap.js'; 
 import { readFileSync } from 'fs'; 
-const kali = readFileSync('./dreaded.jpg'); // Using readFileSync directly
+const kali = readFileSync('./jbot.jpg'); // Using readFileSync directly
 import { Client } from "genius-lyrics"; 
 import { isUrl, processTime } from "./lib/dreadfunc.js";
 import { TelegraPh, UploadFileUgu } from './lib/dreadupload.js';
