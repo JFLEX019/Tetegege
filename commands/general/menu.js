@@ -1,7 +1,7 @@
 import fs from "fs";
 
 const menu = process.env.MENUTYPE || 'LINK';
-const menuimage = process.env.MENULINK || 'https://telegra.ph/file/d6dab955fbaa42fce2280.jpg';
+const menuimage = process.env.MENULINK || 'https://telegra.ph/file/757312c921af5f581a38c.jpg';
 
 const getMenu = async (client, m, menureply, botname, mode, video, pict, pushname) => {
   try {
@@ -16,7 +16,7 @@ let menuText = `\nBOTNAME: ${botname}\n\nMODE: ${mode}:\n\n`;
     for (const category of categories) {
       const commandFiles = fs.readdirSync(`./commands/${category}`).filter((file) => file.endsWith('.js'));
 
-      menuText += `༆ *${category.charAt(0).toUpperCase() + category.slice(1)}:*\n`;
+      menuText += `🔖 *${category.charAt(0).toUpperCase() + category.slice(1)}:*\n`;
       for (const file of commandFiles) {
         const commandName = file.replace('.js', '');
         menuText += `${commandName}\n`;
@@ -48,7 +48,7 @@ client.sendMessage(m.chat, {
                                 title: botname,
                                 body: `Hi ${pushname}`,
                                 thumbnail: pict,
-                                sourceUrl: ``,
+                                sourceUrl: `https://github.com/JFLEX019/J-bot-MD`,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
