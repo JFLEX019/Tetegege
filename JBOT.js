@@ -1,4 +1,4 @@
-/* Fortunatus Mokaya
+/* JFLEX BOT
 
 what does that mean..?
 
